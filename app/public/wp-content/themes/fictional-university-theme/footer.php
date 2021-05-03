@@ -11,7 +11,7 @@
           <div class="site-footer__col-two-three-group">
             <div class="site-footer__col-two">
               <h3 class="headline headline--small">Explore</h3>
-              <nav class="nav-list">
+              <nav class="nav-list"
                 <ul>
                   <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
                   <li><a href="#">Programs</a></li>
