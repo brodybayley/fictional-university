@@ -20,3 +20,13 @@ Stack trace:
 #2 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
 #3 {main}
   thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 11
+[03-May-2021 20:06:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 21 and exactly 1 expected in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/post.php:7329
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(21): wp_get_post_parent_id()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#3 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#4 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7329
+[03-May-2021 20:11:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 25
+[03-May-2021 20:17:50 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22
