@@ -13,3 +13,10 @@ Stack trace:
   thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 409
 [03-May-2021 02:49:14 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
 [03-May-2021 02:49:14 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[03-May-2021 19:38:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_titles() in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:11
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#3 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 11
