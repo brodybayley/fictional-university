@@ -11,3 +11,5 @@ Stack trace:
 #4 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/brodybay...')
 #5 {main}
   thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 409
+[03-May-2021 02:49:14 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[03-May-2021 02:49:14 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
