@@ -30,3 +30,13 @@ Stack trace:
   thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7329
 [03-May-2021 20:11:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 25
 [03-May-2021 20:17:50 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[03-May-2021 21:05:28 UTC] PHP Warning:  Use of undefined constant language_attributes - assumed 'language_attributes' (this will throw an Error in a future version of PHP) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 2
+[03-May-2021 21:05:28 UTC] PHP Stack trace:
+[03-May-2021 21:05:28 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[03-May-2021 21:05:28 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[03-May-2021 21:05:28 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[03-May-2021 21:05:28 UTC] PHP   4. include() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[03-May-2021 21:05:28 UTC] PHP   5. get_header() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:3
+[03-May-2021 21:05:28 UTC] PHP   6. locate_template() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[03-May-2021 21:05:28 UTC] PHP   7. load_template() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[03-May-2021 21:05:28 UTC] PHP   8. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template.php:730
