@@ -2,3 +2,12 @@
 [02-May-2021 22:42:01 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
 [02-May-2021 22:46:13 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
 [03-May-2021 02:01:52 UTC] PHP Parse error:  syntax error, unexpected '"' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[03-May-2021 02:19:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3 and at least 2 expected in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:409
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(3): add_action()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-settings.php(528): include('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/brodybay...')
+#3 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/brodybay...')
+#4 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/brodybay...')
+#5 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 409
