@@ -73,3 +73,4 @@ Stack trace:
 [04-May-2021 22:38:37 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
 [04-May-2021 22:38:37 UTC] PHP   4. include() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
 [04-May-2021 22:38:37 UTC] PHP   5. WP_Query->have_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:24
+[04-May-2021 23:14:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
