@@ -58,3 +58,18 @@ Stack trace:
 [04-May-2021 04:43:39 UTC] PHP   5. do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-settings.php:560
 [04-May-2021 04:43:39 UTC] PHP   6. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
 [04-May-2021 04:43:39 UTC] PHP   7. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 22:19:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_trim_words(), 0 passed in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 33 and at least 1 expected in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/formatting.php:3874
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(33): wp_trim_words()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#3 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#4 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/formatting.php on line 3874
+[04-May-2021 22:38:37 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php on line 3342
+[04-May-2021 22:38:37 UTC] PHP Stack trace:
+[04-May-2021 22:38:37 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[04-May-2021 22:38:37 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[04-May-2021 22:38:37 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[04-May-2021 22:38:37 UTC] PHP   4. include() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[04-May-2021 22:38:37 UTC] PHP   5. WP_Query->have_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:24
