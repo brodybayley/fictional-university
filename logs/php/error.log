@@ -40,3 +40,21 @@ Stack trace:
 [03-May-2021 21:05:28 UTC] PHP   6. locate_template() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
 [03-May-2021 21:05:28 UTC] PHP   7. load_template() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template.php:676
 [03-May-2021 21:05:28 UTC] PHP   8. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template.php:730
+[04-May-2021 04:43:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[04-May-2021 04:43:24 UTC] PHP Stack trace:
+[04-May-2021 04:43:24 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 04:43:24 UTC] PHP   2. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 04:43:24 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-May-2021 04:43:24 UTC] PHP   4. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-May-2021 04:43:24 UTC] PHP   5. do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-settings.php:560
+[04-May-2021 04:43:24 UTC] PHP   6. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-May-2021 04:43:24 UTC] PHP   7. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 04:43:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[04-May-2021 04:43:39 UTC] PHP Stack trace:
+[04-May-2021 04:43:39 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 04:43:39 UTC] PHP   2. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 04:43:39 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-May-2021 04:43:39 UTC] PHP   4. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-May-2021 04:43:39 UTC] PHP   5. do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-settings.php:560
+[04-May-2021 04:43:39 UTC] PHP   6. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-May-2021 04:43:39 UTC] PHP   7. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
