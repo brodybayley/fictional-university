@@ -74,3 +74,131 @@ Stack trace:
 [04-May-2021 22:38:37 UTC] PHP   4. include() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
 [04-May-2021 22:38:37 UTC] PHP   5. WP_Query->have_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:24
 [04-May-2021 23:14:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[05-May-2021 00:28:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[05-May-2021 00:28:52 UTC] PHP Stack trace:
+[05-May-2021 00:28:52 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:52 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:52 UTC] PHP   3. wp() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[05-May-2021 00:28:52 UTC] PHP   4. WP->main() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[05-May-2021 00:28:52 UTC] PHP   5. WP->query_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:752
+[05-May-2021 00:28:52 UTC] PHP   6. WP_Query->query() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:629
+[05-May-2021 00:28:52 UTC] PHP   7. WP_Query->get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:3465
+[05-May-2021 00:28:52 UTC] PHP   8. do_action_ref_array() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:1784
+[05-May-2021 00:28:52 UTC] PHP   9. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[05-May-2021 00:28:52 UTC] PHP  10. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[05-May-2021 00:28:52 UTC] PHP Stack trace:
+[05-May-2021 00:28:52 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:52 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:52 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-May-2021 00:28:52 UTC] PHP   4. include() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[05-May-2021 00:28:52 UTC] PHP   5. get_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php:22
+[05-May-2021 00:28:52 UTC] PHP   6. acf_maybe_get_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:27
+[05-May-2021 00:28:52 UTC] PHP   7. acf_get_meta_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:177
+[05-May-2021 00:28:52 UTC] PHP   8. acf_get_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-meta-functions.php:304
+[05-May-2021 00:28:52 UTC] PHP   9. acf_get_raw_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-functions.php:36
+[05-May-2021 00:28:52 UTC] PHP  10. acf_get_field_post() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-functions.php:85
+[05-May-2021 00:28:52 UTC] PHP  11. get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-functions.php:148
+[05-May-2021 00:28:52 UTC] PHP  12. WP_Query->query() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/post.php:2153
+[05-May-2021 00:28:52 UTC] PHP  13. WP_Query->get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:3465
+[05-May-2021 00:28:52 UTC] PHP  14. do_action_ref_array() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:1784
+[05-May-2021 00:28:52 UTC] PHP  15. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[05-May-2021 00:28:52 UTC] PHP  16. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[05-May-2021 00:28:54 UTC] PHP Stack trace:
+[05-May-2021 00:28:54 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:54 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:54 UTC] PHP   3. wp() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[05-May-2021 00:28:54 UTC] PHP   4. WP->main() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[05-May-2021 00:28:54 UTC] PHP   5. WP->query_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:752
+[05-May-2021 00:28:54 UTC] PHP   6. WP_Query->query() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:629
+[05-May-2021 00:28:54 UTC] PHP   7. WP_Query->get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:3465
+[05-May-2021 00:28:54 UTC] PHP   8. do_action_ref_array() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:1784
+[05-May-2021 00:28:54 UTC] PHP   9. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[05-May-2021 00:28:54 UTC] PHP  10. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php on line 1329
+[05-May-2021 00:28:54 UTC] PHP Stack trace:
+[05-May-2021 00:28:54 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:54 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:54 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-May-2021 00:28:54 UTC] PHP   4. do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:45
+[05-May-2021 00:28:54 UTC] PHP   5. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[05-May-2021 00:28:54 UTC] PHP   6. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:54 UTC] PHP   7. do_favicon() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[05-May-2021 00:28:54 UTC] PHP   8. wp_redirect() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1688
+[05-May-2021 00:28:54 UTC] PHP   9. header() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php:1329
+[05-May-2021 00:28:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php on line 1332
+[05-May-2021 00:28:54 UTC] PHP Stack trace:
+[05-May-2021 00:28:54 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:54 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:54 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-May-2021 00:28:54 UTC] PHP   4. do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:45
+[05-May-2021 00:28:54 UTC] PHP   5. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[05-May-2021 00:28:54 UTC] PHP   6. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:54 UTC] PHP   7. do_favicon() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[05-May-2021 00:28:54 UTC] PHP   8. wp_redirect() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1688
+[05-May-2021 00:28:54 UTC] PHP   9. header() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php:1332
+[05-May-2021 00:28:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[05-May-2021 00:28:55 UTC] PHP Stack trace:
+[05-May-2021 00:28:55 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:55 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:55 UTC] PHP   3. wp() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[05-May-2021 00:28:55 UTC] PHP   4. WP->main() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[05-May-2021 00:28:55 UTC] PHP   5. WP->query_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:752
+[05-May-2021 00:28:55 UTC] PHP   6. WP_Query->query() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:629
+[05-May-2021 00:28:55 UTC] PHP   7. WP_Query->get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:3465
+[05-May-2021 00:28:55 UTC] PHP   8. do_action_ref_array() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:1784
+[05-May-2021 00:28:55 UTC] PHP   9. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[05-May-2021 00:28:55 UTC] PHP  10. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[05-May-2021 00:28:55 UTC] PHP Stack trace:
+[05-May-2021 00:28:55 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:55 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:55 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-May-2021 00:28:55 UTC] PHP   4. include() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[05-May-2021 00:28:55 UTC] PHP   5. get_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php:22
+[05-May-2021 00:28:55 UTC] PHP   6. acf_maybe_get_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:27
+[05-May-2021 00:28:55 UTC] PHP   7. acf_get_meta_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:177
+[05-May-2021 00:28:55 UTC] PHP   8. acf_get_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-meta-functions.php:304
+[05-May-2021 00:28:55 UTC] PHP   9. acf_get_raw_field() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-functions.php:36
+[05-May-2021 00:28:55 UTC] PHP  10. acf_get_field_post() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-functions.php:85
+[05-May-2021 00:28:55 UTC] PHP  11. get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-functions.php:148
+[05-May-2021 00:28:55 UTC] PHP  12. WP_Query->query() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/post.php:2153
+[05-May-2021 00:28:55 UTC] PHP  13. WP_Query->get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:3465
+[05-May-2021 00:28:55 UTC] PHP  14. do_action_ref_array() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:1784
+[05-May-2021 00:28:55 UTC] PHP  15. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[05-May-2021 00:28:55 UTC] PHP  16. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[05-May-2021 00:28:56 UTC] PHP Stack trace:
+[05-May-2021 00:28:56 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:56 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:56 UTC] PHP   3. wp() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[05-May-2021 00:28:56 UTC] PHP   4. WP->main() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[05-May-2021 00:28:56 UTC] PHP   5. WP->query_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:752
+[05-May-2021 00:28:56 UTC] PHP   6. WP_Query->query() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:629
+[05-May-2021 00:28:56 UTC] PHP   7. WP_Query->get_posts() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:3465
+[05-May-2021 00:28:56 UTC] PHP   8. do_action_ref_array() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php:1784
+[05-May-2021 00:28:56 UTC] PHP   9. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[05-May-2021 00:28:56 UTC] PHP  10. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php on line 1329
+[05-May-2021 00:28:56 UTC] PHP Stack trace:
+[05-May-2021 00:28:56 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:56 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:56 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-May-2021 00:28:56 UTC] PHP   4. do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:45
+[05-May-2021 00:28:56 UTC] PHP   5. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[05-May-2021 00:28:56 UTC] PHP   6. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:56 UTC] PHP   7. do_favicon() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[05-May-2021 00:28:56 UTC] PHP   8. wp_redirect() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1688
+[05-May-2021 00:28:56 UTC] PHP   9. header() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php:1329
+[05-May-2021 00:28:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292) in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php on line 1332
+[05-May-2021 00:28:56 UTC] PHP Stack trace:
+[05-May-2021 00:28:56 UTC] PHP   1. {main}() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:0
+[05-May-2021 00:28:56 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
+[05-May-2021 00:28:56 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-May-2021 00:28:56 UTC] PHP   4. do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:45
+[05-May-2021 00:28:56 UTC] PHP   5. WP_Hook->do_action() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[05-May-2021 00:28:56 UTC] PHP   6. WP_Hook->apply_filters() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[05-May-2021 00:28:56 UTC] PHP   7. do_favicon() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[05-May-2021 00:28:56 UTC] PHP   8. wp_redirect() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1688
+[05-May-2021 00:28:56 UTC] PHP   9. header() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php:1332
