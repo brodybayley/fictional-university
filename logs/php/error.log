@@ -202,3 +202,18 @@ Stack trace:
 [05-May-2021 00:28:56 UTC] PHP   7. do_favicon() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
 [05-May-2021 00:28:56 UTC] PHP   8. wp_redirect() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/functions.php:1688
 [05-May-2021 00:28:56 UTC] PHP   9. header() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php:1332
+[05-May-2021 00:50:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php:35
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#3 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 35
+[05-May-2021 00:56:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_query_var(), 0 passed in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 20 and at least 1 expected in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/query.php:26
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php(20): get_query_var()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#3 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#4 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/query.php on line 26
