@@ -228,3 +228,17 @@ Stack trace:
 [05-May-2021 01:33:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
 [05-May-2021 01:37:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
 [05-May-2021 01:54:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 48
+[05-May-2021 02:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:47
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#3 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 47
+[05-May-2021 02:27:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#3 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
