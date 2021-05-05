@@ -217,3 +217,14 @@ Stack trace:
 #3 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
 #4 {main}
   thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/query.php on line 26
+[05-May-2021 01:28:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 26 and at least 1 expected in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:20
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php(26): get_field()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/brodybay...')
+#3 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
+#4 {main}
+  thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 20
+[05-May-2021 01:33:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
+[05-May-2021 01:37:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
+[05-May-2021 01:54:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 48
