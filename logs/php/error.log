@@ -242,3 +242,5 @@ Stack trace:
 #2 /Users/brodybayley/Local Sites/fictional-university/app/public/index.php(17): require('/Users/brodybay...')
 #3 {main}
   thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[05-May-2021 02:52:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 55
+[05-May-2021 02:52:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 55
