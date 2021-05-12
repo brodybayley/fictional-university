@@ -261,3 +261,11 @@ Stack trace:
 #4 {main}
   thrown in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
 [07-May-2021 04:56:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 15
+[12-May-2021 05:06:33 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
+[12-May-2021 05:06:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
+[12-May-2021 05:06:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
+[12-May-2021 05:06:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
+[12-May-2021 05:06:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
+[12-May-2021 05:06:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
+[12-May-2021 05:06:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
+[12-May-2021 05:06:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 17
