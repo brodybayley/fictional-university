@@ -298,3 +298,10 @@ Stack trace:
 [15-May-2021 04:22:30 UTC] PHP   2. require() /Users/brodybayley/Local Sites/fictional-university/app/public/index.php:17
 [15-May-2021 04:22:30 UTC] PHP   3. require_once() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-blog-header.php:19
 [15-May-2021 04:22:30 UTC] PHP   4. include() /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[15-May-2021 21:48:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 31 and at least 1 expected in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php:2652
+Stack trace:
+#0 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(31): get_avatar()
+#1 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template.php(730): require_once('/Users/brodybay...')
+#2 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/brodybay...', true, Array)
+#3 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /Users/brodybayley/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/ in /Users/brodybayley/Local Sites/fictional-university/app/public/wp-includes/pluggable.php on line 2652
